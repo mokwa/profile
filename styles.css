@@ -19,7 +19,7 @@ h2, h3{
   color: #4a4e69;
   font-size: 20px;
   font-family: 'Roboto';
-  font-weight: 300;
+  font-weight: 400;
 }
 p{
   color: #6d6875;
@@ -52,6 +52,7 @@ button:hover{
   background-color: #b5838d
 }
 
+
 .container{
   width: 700px;
   margin: 40px auto;
@@ -64,6 +65,13 @@ button:hover{
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
+}
+.list_about_me{
+  text-align: left;
+}
+.list_about_me li{
+  list-style-type: none;
+  line-height: 34px;
 }
 
 .list-inline {
@@ -91,6 +99,6 @@ button:hover{
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 400px;
   }
 }
